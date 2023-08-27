@@ -1,3 +1,6 @@
+<?php
+require_once("./model/connect.php");
+error_reporting(0);?>
 <!doctype html>
 <php html lang="en">
 <head>
@@ -179,15 +182,33 @@
 							</div>
 
 							<div class="row">
+							<?php
+			$sql = "SELECT * FROM products
+			ORDER BY RAND()
+			LIMIT 3 "; 
+			$result = mysqli_query($conn,$sql);
+			if(!$result){
+				echo $sql;
+				die('error');
+			}
+			else {
+				while ($row = mysqli_fetch_assoc($result)){ 
+					if($row['image'] == null || $row['image'] ==''){
+					$thum_Image = "";
+				}
+				else{
+					$thum_Image = "./image/product/".$row['image'];
+				}
+					?>
 								<div class="col-sm-4">
 									<div class="single-item">
 										<div class="single-item-header">
-											<a href="product.php"><img src="assets/dest/images/products/1.jpg" alt=""></a>
+											<a href="product.php"><img src="<?php echo $thum_Image;?>" style="width:350px;height:300px;"alt=""></a>
 										</div>
 										<div class="single-item-body">
-											<p class="single-item-title">Sample Woman Top</p>
+											<p class="single-item-title"><?php echo $row['name'];?></p>
 											<p class="single-item-price">
-												<span>$34.55</span>
+												<span><?php echo $row['promotion_price'];?> vnđ</span>
 											</p>
 										</div>
 										<div class="single-item-caption">
@@ -197,42 +218,8 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-sm-4">
-									<div class="single-item">
-										<div class="single-item-header">
-											<a href="product.php"><img src="assets/dest/images/products/1.jpg" alt=""></a>
-										</div>
-										<div class="single-item-body">
-											<p class="single-item-title">Sample Woman Top</p>
-											<p class="single-item-price">
-												<span>$34.55</span>
-											</p>
-										</div>
-										<div class="single-item-caption">
-											<a class="add-to-cart pull-left" href="shopping_cart.php"><i class="fa fa-shopping-cart"></i></a>
-											<a class="beta-btn primary" href="product.php">Details <i class="fa fa-chevron-right"></i></a>
-											<div class="clearfix"></div>
-										</div>
-									</div>
-								</div>
-								<div class="col-sm-4">
-									<div class="single-item">
-										<div class="single-item-header">
-											<a href="product.php"><img src="assets/dest/images/products/1.jpg" alt=""></a>
-										</div>
-										<div class="single-item-body">
-											<p class="single-item-title">Sample Woman Top</p>
-											<p class="single-item-price">
-												<span>$34.55</span>
-											</p>
-										</div>
-										<div class="single-item-caption">
-											<a class="add-to-cart pull-left" href="shopping_cart.php"><i class="fa fa-shopping-cart"></i></a>
-											<a class="beta-btn primary" href="product.php">Details <i class="fa fa-chevron-right"></i></a>
-											<div class="clearfix"></div>
-										</div>
-									</div>
-								</div>
+<?php }} ?>
+								
 							</div>
 						</div> <!-- .beta-products-list -->
 
@@ -245,15 +232,33 @@
 								<div class="clearfix"></div>
 							</div>
 							<div class="row">
+										<?php
+			$sql = "SELECT * FROM products
+			ORDER BY RAND()
+			LIMIT 3 "; 
+			$result = mysqli_query($conn,$sql);
+			if(!$result){
+				echo $sql;
+				die('error');
+			}
+			else {
+				while ($row = mysqli_fetch_assoc($result)){ 
+					if($row['image'] == null || $row['image'] ==''){
+					$thum_Image = "";
+				}
+				else{
+					$thum_Image = "./image/product/".$row['image'];
+				}
+					?>
 								<div class="col-sm-4">
 									<div class="single-item">
 										<div class="single-item-header">
-											<a href="product.php"><img src="assets/dest/images/products/1.jpg" alt=""></a>
+											<a href="product.php"><img src="<?php echo $thum_Image;?>" style="width:350px;height:300px;" alt=""></a>
 										</div>
 										<div class="single-item-body">
-											<p class="single-item-title">Sample Woman Top</p>
+											<p class="single-item-title"><?php echo $row['name'];?></p>
 											<p class="single-item-price">
-												<span>$34.55</span>
+												<span><?php echo $row['promotion_price'];?> vnđ</span>
 											</p>
 										</div>
 										<div class="single-item-caption">
@@ -263,42 +268,8 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-sm-4">
-									<div class="single-item">
-										<div class="single-item-header">
-											<a href="product.php"><img src="assets/dest/images/products/1.jpg" alt=""></a>
-										</div>
-										<div class="single-item-body">
-											<p class="single-item-title">Sample Woman Top</p>
-											<p class="single-item-price">
-												<span>$34.55</span>
-											</p>
-										</div>
-										<div class="single-item-caption">
-											<a class="add-to-cart pull-left" href="shopping_cart.php"><i class="fa fa-shopping-cart"></i></a>
-											<a class="beta-btn primary" href="product.php">Details <i class="fa fa-chevron-right"></i></a>
-											<div class="clearfix"></div>
-										</div>
-									</div>
-								</div>
-								<div class="col-sm-4">
-									<div class="single-item">
-										<div class="single-item-header">
-											<a href="product.php"><img src="assets/dest/images/products/1.jpg" alt=""></a>
-										</div>
-										<div class="single-item-body">
-											<p class="single-item-title">Sample Woman Top</p>
-											<p class="single-item-price">
-												<span>$34.55</span>
-											</p>
-										</div>
-										<div class="single-item-caption">
-											<a class="add-to-cart pull-left" href="shopping_cart.php"><i class="fa fa-shopping-cart"></i></a>
-											<a class="beta-btn primary" href="product.php">Details <i class="fa fa-chevron-right"></i></a>
-											<div class="clearfix"></div>
-										</div>
-									</div>
-								</div>
+<?php }} ?>
+								
 							</div>
 							<div class="space40">&nbsp;</div>
 							

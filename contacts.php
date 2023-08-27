@@ -28,8 +28,8 @@
 				<div class="pull-right auto-width-right">
 					<ul class="top-details menu-beta l-inline">
 						<li><a href="#"><i class="fa fa-user"></i>Tài khoản</a></li>
-						<li><a href="#">Đăng kí</a></li>
-						<li><a href="#">Đăng nhập</a></li>
+						<li><a href="signup.php">Đăng kí</a></li>
+						<li><a href="login.php">Đăng nhập</a></li>
 					</ul>
 				</div>
 				<div class="clearfix"></div>
@@ -38,7 +38,7 @@
 		<div class="header-body">
 			<div class="container beta-relative">
 				<div class="pull-left">
-					<a href="index.html" id="logo"><img src="assets/dest/images/logo-cake.png" width="200px" alt=""></a>
+					<a href="index.php" id="logo"><img src="assets/dest/images/logo-cake.png" width="200px" alt=""></a>
 				</div>
 				<div class="pull-right beta-components space-left ov">
 					<div class="space10">&nbsp;</div>
@@ -92,7 +92,7 @@
 
 									<div class="center">
 										<div class="space10">&nbsp;</div>
-										<a href="checkout.html" class="beta-btn primary text-center">Đặt hàng <i class="fa fa-chevron-right"></i></a>
+										<a href="checkout.php" class="beta-btn primary text-center">Đặt hàng <i class="fa fa-chevron-right"></i></a>
 									</div>
 								</div>
 							</div>
@@ -108,16 +108,16 @@
 				<div class="visible-xs clearfix"></div>
 				<nav class="main-menu">
 					<ul class="l-inline ov">
-						<li><a href="index.html">Trang chủ</a></li>
+						<li><a href="index.php">Trang chủ</a></li>
 						<li><a href="#">Sản phẩm</a>
 							<ul class="sub-menu">
-								<li><a href="product_type.html">Sản phẩm 1</a></li>
-								<li><a href="product_type.html">Sản phẩm 2</a></li>
-								<li><a href="product_type.html">Sản phẩm 4</a></li>
+								<li><a href="product_type.php">Sản phẩm 1</a></li>
+								<li><a href="product_type.php">Sản phẩm 2</a></li>
+								<li><a href="product_type.php">Sản phẩm 4</a></li>
 							</ul>
 						</li>
-						<li><a href="about.html">Giới thiệu</a></li>
-						<li><a href="contacts.html">Liên hệ</a></li>
+						<li><a href="about.php">Giới thiệu</a></li>
+						<li><a href="contacts.php">Liên hệ</a></li>
 					</ul>
 					<div class="clearfix"></div>
 				</nav>
@@ -131,7 +131,7 @@
 			</div>
 			<div class="pull-right">
 				<div class="beta-breadcrumb font-large">
-					<a href="index.html">Home</a> / <span>Contacts</span>
+					<a href="index.php">Home</a> / <span>Contacts</span>
 				</div>
 			</div>
 			<div class="clearfix"></div>
@@ -212,12 +212,12 @@
 						<h4 class="widget-title">Information</h4>
 						<div>
 							<ul>
-								<li><a href="blog_fullwidth_3col.html"><i class="fa fa-chevron-right"></i> Web Design</a></li>
-								<li><a href="blog_fullwidth_3col.html"><i class="fa fa-chevron-right"></i> Web development</a></li>
-								<li><a href="blog_fullwidth_3col.html"><i class="fa fa-chevron-right"></i> Marketing</a></li>
-								<li><a href="blog_fullwidth_3col.html"><i class="fa fa-chevron-right"></i> Tips</a></li>
-								<li><a href="blog_fullwidth_3col.html"><i class="fa fa-chevron-right"></i> Resources</a></li>
-								<li><a href="blog_fullwidth_3col.html"><i class="fa fa-chevron-right"></i> Illustrations</a></li>
+								<li><a href="blog_fullwidth_3col.php"><i class="fa fa-chevron-right"></i> Web Design</a></li>
+								<li><a href="blog_fullwidth_3col.php"><i class="fa fa-chevron-right"></i> Web development</a></li>
+								<li><a href="blog_fullwidth_3col.php"><i class="fa fa-chevron-right"></i> Marketing</a></li>
+								<li><a href="blog_fullwidth_3col.php"><i class="fa fa-chevron-right"></i> Tips</a></li>
+								<li><a href="blog_fullwidth_3col.php"><i class="fa fa-chevron-right"></i> Resources</a></li>
+								<li><a href="blog_fullwidth_3col.php"><i class="fa fa-chevron-right"></i> Illustrations</a></li>
 							</ul>
 						</div>
 					</div>

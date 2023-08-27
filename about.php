@@ -27,8 +27,8 @@
 				<div class="pull-right auto-width-right">
 					<ul class="top-details menu-beta l-inline">
 						<li><a href="#"><i class="fa fa-user"></i>Tài khoản</a></li>
-						<li><a href="#">Đăng kí</a></li>
-						<li><a href="#">Đăng nhập</a></li>
+						<li><a href="signup.php">Đăng kí</a></li>
+						<li><a href="login.php">Đăng nhập</a></li>
 					</ul>
 				</div>
 				<div class="clearfix"></div>
@@ -37,7 +37,7 @@
 		<div class="header-body">
 			<div class="container beta-relative">
 				<div class="pull-left">
-					<a href="index.html" id="logo"><img src="assets/dest/images/logo-cake.png" width="200px" alt=""></a>
+					<a href="index.php" id="logo"><img src="assets/dest/images/logo-cake.png" width="200px" alt=""></a>
 				</div>
 				<div class="pull-right beta-components space-left ov">
 					<div class="space10">&nbsp;</div>
@@ -91,7 +91,7 @@
 
 									<div class="center">
 										<div class="space10">&nbsp;</div>
-										<a href="checkout.html" class="beta-btn primary text-center">Đặt hàng <i class="fa fa-chevron-right"></i></a>
+										<a href="checkout.php" class="beta-btn primary text-center">Đặt hàng <i class="fa fa-chevron-right"></i></a>
 									</div>
 								</div>
 							</div>
@@ -107,16 +107,16 @@
 				<div class="visible-xs clearfix"></div>
 				<nav class="main-menu">
 					<ul class="l-inline ov">
-						<li><a href="index.html">Trang chủ</a></li>
+						<li><a href="index.php">Trang chủ</a></li>
 						<li><a href="#">Sản phẩm</a>
 							<ul class="sub-menu">
-								<li><a href="product_type.html">Sản phẩm 1</a></li>
-								<li><a href="product_type.html">Sản phẩm 2</a></li>
-								<li><a href="product_type.html">Sản phẩm 4</a></li>
+								<li><a href="product_type.php">Sản phẩm 1</a></li>
+								<li><a href="product_type.php">Sản phẩm 2</a></li>
+								<li><a href="product_type.php">Sản phẩm 4</a></li>
 							</ul>
 						</li>
-						<li><a href="about.html">Giới thiệu</a></li>
-						<li><a href="contacts.html">Liên hệ</a></li>
+						<li><a href="about.php">Giới thiệu</a></li>
+						<li><a href="contacts.php">Liên hệ</a></li>
 					</ul>
 					<div class="clearfix"></div>
 				</nav>
@@ -130,7 +130,7 @@
 			</div>
 			<div class="pull-right">
 				<div class="beta-breadcrumb font-large">
-					<a href="index.html">Home</a> / <span>Giới thiệu</span>
+					<a href="index.php">Home</a> / <span>Giới thiệu</span>
 				</div>
 			</div>
 			<div class="clearfix"></div>
@@ -144,13 +144,13 @@
 
 				<div class="history-slider">
 					<div class="history-navigation">
-						<a data-slide-index="0" href="blog_with_2sidebars_type_e.html" class="circle"><span class="auto-center">2003</span></a>
-						<a data-slide-index="1" href="blog_with_2sidebars_type_e.html" class="circle"><span class="auto-center">2004</span></a>
-						<a data-slide-index="2" href="blog_with_2sidebars_type_e.html" class="circle"><span class="auto-center">2005</span></a>
-						<a data-slide-index="3" href="blog_with_2sidebars_type_e.html" class="circle"><span class="auto-center">2007</span></a>
-						<a data-slide-index="4" href="blog_with_2sidebars_type_e.html" class="circle"><span class="auto-center">2009</span></a>
-						<a data-slide-index="5" href="blog_with_2sidebars_type_e.html" class="circle"><span class="auto-center">2011</span></a>
-						<a data-slide-index="6" href="blog_with_2sidebars_type_e.html" class="circle"><span class="auto-center">2014</span></a>
+						<a data-slide-index="0" href="blog_with_2sidebars_type_e.php" class="circle"><span class="auto-center">2003</span></a>
+						<a data-slide-index="1" href="blog_with_2sidebars_type_e.php" class="circle"><span class="auto-center">2004</span></a>
+						<a data-slide-index="2" href="blog_with_2sidebars_type_e.php" class="circle"><span class="auto-center">2005</span></a>
+						<a data-slide-index="3" href="blog_with_2sidebars_type_e.php" class="circle"><span class="auto-center">2007</span></a>
+						<a data-slide-index="4" href="blog_with_2sidebars_type_e.php" class="circle"><span class="auto-center">2009</span></a>
+						<a data-slide-index="5" href="blog_with_2sidebars_type_e.php" class="circle"><span class="auto-center">2011</span></a>
+						<a data-slide-index="6" href="blog_with_2sidebars_type_e.php" class="circle"><span class="auto-center">2014</span></a>
 					</div>
 
 					<div class="history-slides">
@@ -338,7 +338,7 @@
 							<h5>Bob Robertson</h5>
 							<p class="font-large">Founder</p>
 							<p>Nemo enim ipsam voluptatem quia voluptas sit asatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque por quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam.</p>
-							<a href="single_type_gallery.html">View projects <i class="fa fa-chevron-right"></i></a>
+							<a href="single_type_gallery.php">View projects <i class="fa fa-chevron-right"></i></a>
 						</div>
 					</div>
 				</div>
@@ -351,7 +351,7 @@
 							<h5>Mike Greenwood</h5>
 							<p class="font-large">Founder</p>
 							<p>Nemo enim ipsam voluptatem quia voluptas sit asatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque por quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam.</p>
-							<a href="single_type_gallery.html">View projects <i class="fa fa-chevron-right"></i></a>
+							<a href="single_type_gallery.php">View projects <i class="fa fa-chevron-right"></i></a>
 						</div>
 					</div>
 				</div>
@@ -371,7 +371,7 @@
 							<h5>Mark Priston</h5>
 							<p class="font-large">Web developer</p>
 							<p>Nemo enims voluptatem quia volupas sit aspe aut odit aut fugit, sed quia consequuntur magni dolores.</p>
-							<a href="single_type_gallery.html">View projects <i class="fa fa-chevron-right"></i></a>
+							<a href="single_type_gallery.php">View projects <i class="fa fa-chevron-right"></i></a>
 						</div>
 					</div>
 				</div>
@@ -384,7 +384,7 @@
 							<h5>Bob Robertson</h5>
 							<p class="font-large">Web developer</p>
 							<p>Nemo enims voluptatem quia volupas sit aspe aut odit aut fugit, sed quia consequuntur magni dolores.</p>
-							<a href="single_type_gallery.html">View projects <i class="fa fa-chevron-right"></i></a>
+							<a href="single_type_gallery.php">View projects <i class="fa fa-chevron-right"></i></a>
 						</div>
 					</div>
 				</div>
@@ -397,7 +397,7 @@
 							<h5>Mike Greenwood</h5>
 							<p class="font-large">Web developer</p>
 							<p>Nemo enims voluptatem quia volupas sit aspe aut odit aut fugit, sed quia consequuntur magni dolores.</p>
-							<a href="single_type_gallery.html">View projects <i class="fa fa-chevron-right"></i></a>
+							<a href="single_type_gallery.php">View projects <i class="fa fa-chevron-right"></i></a>
 						</div>
 					</div>
 				</div>
@@ -410,7 +410,7 @@
 							<h5>David Black</h5>
 							<p class="font-large">Web developer</p>
 							<p>Nemo enims voluptatem quia volupas sit aspe aut odit aut fugit, sed quia consequuntur magni dolores.</p>
-							<a href="single_type_gallery.html">View projects <i class="fa fa-chevron-right"></i></a>
+							<a href="single_type_gallery.php">View projects <i class="fa fa-chevron-right"></i></a>
 						</div>
 					</div>
 				</div>
@@ -432,12 +432,12 @@
 						<h4 class="widget-title">Information</h4>
 						<div>
 							<ul>
-								<li><a href="blog_fullwidth_2col.html"><i class="fa fa-chevron-right"></i> Web Design</a></li>
-								<li><a href="blog_fullwidth_2col.html"><i class="fa fa-chevron-right"></i> Web development</a></li>
-								<li><a href="blog_fullwidth_2col.html"><i class="fa fa-chevron-right"></i> Marketing</a></li>
-								<li><a href="blog_fullwidth_2col.html"><i class="fa fa-chevron-right"></i> Tips</a></li>
-								<li><a href="blog_fullwidth_2col.html"><i class="fa fa-chevron-right"></i> Resources</a></li>
-								<li><a href="blog_fullwidth_2col.html"><i class="fa fa-chevron-right"></i> Illustrations</a></li>
+								<li><a href="blog_fullwidth_2col.php"><i class="fa fa-chevron-right"></i> Web Design</a></li>
+								<li><a href="blog_fullwidth_2col.php"><i class="fa fa-chevron-right"></i> Web development</a></li>
+								<li><a href="blog_fullwidth_2col.php"><i class="fa fa-chevron-right"></i> Marketing</a></li>
+								<li><a href="blog_fullwidth_2col.php"><i class="fa fa-chevron-right"></i> Tips</a></li>
+								<li><a href="blog_fullwidth_2col.php"><i class="fa fa-chevron-right"></i> Resources</a></li>
+								<li><a href="blog_fullwidth_2col.php"><i class="fa fa-chevron-right"></i> Illustrations</a></li>
 							</ul>
 						</div>
 					</div>
