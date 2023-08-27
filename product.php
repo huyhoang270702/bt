@@ -58,8 +58,8 @@ error_reporting(2);?>
 				<div class="pull-right beta-components space-left ov">
 					<div class="space10">&nbsp;</div>
 					<div class="beta-comp">
-						<form role="search" method="get" id="searchform" action="/">
-					        <input type="text" value="" name="s" id="s" placeholder="Search entire store here..." />
+						<form role="search" method="post" id="searchform" action="timkiem.php">
+					        <input type="text" value="" name="search" id="search" placeholder="Search entire store here..." />
 					        <button class="fa fa-search" type="submit" id="searchsubmit"></button>
 						</form>
 					</div>
@@ -282,8 +282,8 @@ else {
 										</p>
 									</div>
 									<div class="single-item-caption">
-										<a class="add-to-cart pull-left" href="product.php"><i class="fa fa-shopping-cart"></i></a>
-										<a class="beta-btn primary" href="product.php">Details <i class="fa fa-chevron-right"></i></a>
+										<a class="add-to-cart pull-left" href="product.php?id=<?php echo $row['id'];?>"><i class="fa fa-shopping-cart"></i></a>
+										<a class="beta-btn primary" href="product.php?id=<?php echo $row['id'];	?>">Details <i class="fa fa-chevron-right"></i></a>
 										<div class="clearfix"></div>
 									</div>
 								</div>
@@ -318,7 +318,7 @@ else {
 	}
 		?>
 								<div class="media beta-sales-item">
-									<a class="pull-left" href="product.php"><img src="<?php echo $thum_Image;?>" alt=""></a>
+									<a class="pull-left" href="product.php?id=<?php echo $row['id'];	?>"><img src="<?php echo $thum_Image;?>" alt=""></a>
 									<div class="media-body">
 									<?php echo $row['name'];?>
 										<span class="beta-sales-price"><?php echo $row['promotion_price'];?></span>

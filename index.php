@@ -206,7 +206,7 @@ else {
 								<div class="col-3">
 									<div class="single-item">
 										<div class="single-item-header">
-											<a href="product.php"><img src="<?php echo $thum_Image ;?>"  style="width:500px;height:300px" ; alt=""></a>
+											<a href="product.php?id=<?php echo $row['id'];	?>"><img src="<?php echo $thum_Image ;?>"  style="width:500px;height:300px" ; alt=""></a>
 										</div>
 										<div class="single-item-body">
 											<p class="single-item-title"><?php echo $row['name'];?></p>

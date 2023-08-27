@@ -32,8 +32,8 @@ error_reporting(0);?>
 				<div class="pull-right auto-width-right">
 					<ul class="top-details menu-beta l-inline">
 						<li><a href="#"><i class="fa fa-user"></i>Tài khoản</a></li>
-						<li><a href="#">Đăng kí</a></li>
-						<li><a href="#">Đăng nhập</a></li>
+						<li><a href="signup.php">Đăng kí</a></li>
+						<li><a href="login.php">Đăng nhập</a></li>
 					</ul>
 				</div>
 				<div class="clearfix"></div>
@@ -47,8 +47,8 @@ error_reporting(0);?>
 				<div class="pull-right beta-components space-left ov">
 					<div class="space10">&nbsp;</div>
 					<div class="beta-comp">
-						<form role="search" method="get" id="searchform" action="/">
-					        <input type="text" value="" name="s" id="s" placeholder="Nhập từ khóa..." />
+						<form role="search" method="post" id="searchform" action="timkiem.php">
+					        <input type="text" value="" name="search" id="search" placeholder="Nhập từ khóa..." />
 					        <button class="fa fa-search" type="submit" id="searchsubmit"></button>
 						</form>
 					</div>
@@ -213,7 +213,7 @@ error_reporting(0);?>
 										</div>
 										<div class="single-item-caption">
 											<a class="add-to-cart pull-left" href="shopping_cart.php"><i class="fa fa-shopping-cart"></i></a>
-											<a class="beta-btn primary" href="product.php">Details <i class="fa fa-chevron-right"></i></a>
+											<a class="beta-btn primary" href="product.php?id=<?php echo $row['id'];	?>">Details <i class="fa fa-chevron-right"></i></a>
 											<div class="clearfix"></div>
 										</div>
 									</div>
@@ -263,7 +263,7 @@ error_reporting(0);?>
 										</div>
 										<div class="single-item-caption">
 											<a class="add-to-cart pull-left" href="shopping_cart.php"><i class="fa fa-shopping-cart"></i></a>
-											<a class="beta-btn primary" href="product.php">Details <i class="fa fa-chevron-right"></i></a>
+											<a class="beta-btn primary" href="product.php?id=<?php echo $row['id'];	?>">Details <i class="fa fa-chevron-right"></i></a>
 											<div class="clearfix"></div>
 										</div>
 									</div>
